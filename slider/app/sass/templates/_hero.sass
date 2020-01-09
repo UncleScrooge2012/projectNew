@@ -1,0 +1,125 @@
+.hero	
+    padding-top: 10rem
+    position: relative
+    background: $dark url('../img/hero_bg.jpg') no-repeat center / cover
+      
+    height: 100vh
+    color: $light
+
+    display: flex
+    flex-direction: column    
+    justify-content: center   
+
+    &::before
+        content: '' 
+        position: absolute
+        left: 0
+        top: 0
+        width: 100%
+        height: 100%
+        background: rgba($dark, 0.7)
+
+    &::after
+        content: '' 
+        width: 100%
+        position: absolute
+        bottom: 0    
+        left: 0
+        right: 0
+        height: 4rem
+        background-color: $dark
+
+    &__inner
+        max-width: 128.6rem
+        width: 85%    
+        margin: auto 
+
+        
+    &__content
+        position: relative
+        max-width: 67rem
+
+    &__text
+        margin-top: 1.8rem
+        margin-bottom: 4.2rem
+        max-width: 50rem
+        font-size: 2.2rem
+        line-height: 3rem
+
+    &__button
+        padding: 1.9rem 2.6rem
+        margin-right: 1.7rem
+      
+
+
+    &__instagram
+        position: absolute
+        left: 0
+        top: 0
+
+        max-width: 8rem
+        height: 100%
+
+    &__scroll-down 
+        z-index: 3
+        position: absolute
+        left: 0
+        bottom: 0
+        display: flex
+        justify-content: center
+        align-items: center
+        min-width: 24.7rem
+        min-height: 9.7rem
+        background-color: $dark
+        text-transform: uppercase
+        text-decoration: none
+        font-family: 'Yeseva One'
+        font-size: 1.2rem
+        color: $light
+        &::after
+            content: ''
+            background: url('../img/arrow-donw.svg') no-repeat center
+            width: 3rem
+            height: 3rem
+            border: 0.2rem solid $primary
+            border-radius: 50%
+            margin-left: 1.8rem
+
+
+.instagram
+    display: flex      
+    justify-content: center    
+    align-items: center
+    background-color: $dark
+
+    &__link
+        font-size: 1.5rem
+        display: flex
+        align-items: center
+        text-transform: uppercase
+        text-decoration: none
+        line-height: 0.8
+        color: $primary
+        transform: rotate(90deg)
+        &::after
+           content: ''
+           width: 5rem
+           height: 0.1rem
+           background-color: $primary
+           margin-left: 1.4rem
+
+
+.titel 
+    margin: 0
+    font-family: 'Yeseva One', cursive
+    font-size: 4rem
+    line-height: 5.2rem
+    font-weight: normal
+
+    text-transform: uppercase
+
+    &--primary
+        color: $primary
+
+
+

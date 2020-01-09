@@ -1,0 +1,116 @@
+.projects
+    padding-bottom: 40rem
+    &__section
+        &-heeding
+            margin: 0
+            font-family: 'Yeseva One', cursive
+            font-size: 2.7rem
+            line-height: 3.7rem
+            letter-spacing: -0.17rem;
+    
+.swiper
+    &-slide
+        display: flex
+        flex-wrap: wrap
+        padding-bottom: 6.7rem
+        &__text
+            flex-basis: 43%
+            margin-bottom: 1.9rem   
+            &--mb
+                margin-bottom: 3.1rem      
+        &__heading
+            font-size: 1.8rem
+            line-height: 2.5rem
+            color: $primary
+            font-family: 'Yeseva One', cursive
+            text-transform: uppercase
+            margin-bottom: 0.6rem
+           
+             
+        &__value
+            font-size: 1.5rem
+            line-height: 2rem
+            display: block
+            
+
+    &-pagination        
+        &-bullet
+            background-color: rgba($light, 0.3)   
+            margin: 0 0.96rem !important        
+            &-active
+                background-color: $light
+    &-button
+        &-prev, &-next
+            bottom: 0
+            top: auto
+            background-size: 4.2rem
+            width: 6.5rem 
+            height: 1.4rem
+            &::after
+                display: none
+        &-prev
+            left: 0
+            background: url('../img/arrow-prev.svg') no-repeat center
+
+        &-next            
+            background: url('../img/arrow-next.svg') no-repeat center
+
+.swiper-container-horizontal>.swiper-pagination-bullets
+    width: auto
+    bottom: -0.2rem
+    
+
+
+// @media screen and ( min-width: 759px  )
+//     .swiper
+//         &-pagination
+//             &--none
+//                 display: none
+//         &--img
+//             display: none
+        
+
+// @media screen and ( max-width: 759px )
+//     .row.projects__row
+//         display: flex
+//         flex-direction: column-reverse
+//         font-size: 14px
+//     .swiper
+//         &-slide
+//             &__text
+//                 margin-bottom: 0
+//                 &--botton
+//                     padding-bottom: 7rem
+//         &-button
+//             &-prev
+//                 &--center
+//                     left: 25%
+//             &-next
+//                 &--center   
+//                     left: 61.2% !important
+//         &-pagination
+//             &--center         
+//                 left: 43% !important
+//     .section           
+//         &-title
+//             &__heeding
+//                 &--primary
+//                     text-align: center
+//                     margin-bottom: 2.2rem
+                    
+//             &__word
+//                 justify-content: center                
+//                 &::after
+//                     display: none          
+//             &__text
+//                 text-align: center
+//                 margin: 0 auto                
+//                 font-size: 14px
+//                 padding: 0 1rem
+//                 margin-bottom: 3.6rem
+
+                
+//     .col-50
+//        min-width: 95% 
+       
+

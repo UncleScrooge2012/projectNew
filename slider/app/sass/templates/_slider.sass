@@ -1,0 +1,142 @@
+.steps
+  position: relative
+  padding-top: 37.8rem
+  padding-bottom: 37.3rem 
+  &__section
+    &-supheeding
+      font-family: 'Futura Demi', sans-serif
+      font-size: 1.5rem
+      line-height: 2.1rem
+      text-transform: uppercase
+      color: #fff
+      font-weight: 500
+      margin-bottom: 1.3rem
+    &-heeding
+      letter-spacing: 0.1rem
+      margin-bottom: 8.7rem
+    &-word
+      position: relative
+      &::after
+        position: absolute
+        right: 3.3rem
+        width: 9.4rem
+
+
+  
+    
+  &__slider
+    &-titel
+      font-family: 'Yeseva One', cursive 
+      font-size: 1.5rem
+      font-weight: 400
+      line-height: 2.3rem
+      text-transform: uppercase
+      color: #E3B873
+      margin-bottom: 1rem
+      span
+        display: block
+    &-text
+      font-size: 1.5rem
+      line-height: 2.5rem
+      color: #fff
+      margin: 0
+      margin-bottom:  1rem
+      &--pr
+        padding-right: 1rem
+
+      
+  &-pagination        
+      &-bullet
+          background-color: rgba($light, 0.3)   
+          margin: 0 0.96rem !important        
+          &-active
+              background-color: $light
+  &-button
+      &-prev, &-next
+          position: absolute
+          bottom: 0
+          top: auto
+          background-size: 4.2rem
+          width: 6.5rem 
+          height: 1.4rem                  
+          &::after
+              display: none
+      &-prev
+        left: -1rem
+          
+        background: url('../img/arrow-prev.svg') no-repeat center
+      &-next 
+          // left: 70px           
+          background: url('../img/arrow-next.svg') no-repeat center
+
+.stages
+    
+  &__inner
+    padding-top: 9rem
+  &__box
+    margin-bottom: 1.4rem
+    &-list
+      margin: 0
+      padding: 0
+      list-style: none
+      display: flex
+      justify-content: space-between
+      flex-wrap: wrap
+    &-item
+      flex-basis: 28%
+      margin-bottom: 3.6rem
+      font-size: 1.5rem
+      line-height: 1.8rem
+      color: #fff   
+      cursor: pointer   
+      opacity: 0.5
+      &--pl
+        padding-left: 5rem
+        &-big
+          padding-left: 11.2rem
+      
+    &-item.active
+      opacity: 1
+
+    &-titel
+      font-weight: 400
+      margin: 0
+      font-size: 1.5rem
+      span
+        display: block 
+    &-suptitel
+      font-family: 'Yeseva One', cursive
+      line-height: 2.1rem
+      display: inline-block
+      border-bottom: 1px solid #E3B873
+      margin-bottom: 1.16rem
+        
+
+
+
+
+.gallery-pagination
+  margin-top: 2rem
+  font-size: 2rem
+  color: #fff
+  height: 2rem
+
+.steps-container, .gallery-container
+  margin-left: auto
+  margin-right: auto
+  position: relative  
+  overflow: hidden    
+  list-style: none      
+  padding: 0        
+  z-index: 1
+
+.stages__pagination
+  font-family: 'Yeseva One', cursive 
+  font-style: 1.8rem
+  line-height: 2.5rem
+  font-weight: 400
+  color: #fff 
+
+.swiper-pagination-bullets
+  max-width: 18rem
+  margin-left: 6.4rem
