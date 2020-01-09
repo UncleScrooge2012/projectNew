@@ -21,8 +21,10 @@ toggleModal();
 
 $(document).ready(function () {
 
+var mixer = mixitup('.fantasy__box-imgs');
 
-  $('body').append('<a href="#" class="scroll-up">листайте вверх</a>');
+
+$('body').append('<a href="#" class="scroll-up">листайте вверх</a>');
 
 
 
@@ -304,7 +306,7 @@ $(document).ready(function () {
 
 
 
-  var mixer = mixitup('.fantasy__box-imgs');
+
 
 
 
